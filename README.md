@@ -32,3 +32,5 @@ added <br> and <hr> in several locations for appearance because I don't know any
 Added Restaurant Hours table to index.html
 Ran tests on form fields and found no issues
 changed "Submit" button to "demo only" notice
+corrected formatting
+added </li> tag
