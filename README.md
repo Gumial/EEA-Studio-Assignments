@@ -41,6 +41,8 @@ Week-4-Studio
 creating branch
 adding additional viewport title details
 publishing main
+Left expanded viewport titles unmerged to show evidence of understanding separate working branches - Can merge if preferred
+
 Release checklist
 [Y] index.html is present
 [Y] All links work on the hosted URL
