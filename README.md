@@ -1,5 +1,7 @@
 # EEA Studio Webpage Build
 
+https://gumial.github.io/EEA-Studio-Assignments/
+
 Week-2-Studio
 Index.html and about.html file week 2 studio assignment
 
@@ -32,3 +34,21 @@ added <br> and <hr> in several locations for appearance because I don't know any
 Added Restaurant Hours table to index.html
 Ran tests on form fields and found no issues
 changed "Submit" button to "demo only" notice
+corrected formatting
+added </li> tag
+
+Week-4-Studio
+creating branch
+adding additional viewport title details
+publishing main
+Release checklist
+[Y] index.html is present
+[Y] All links work on the hosted URL
+Fixed broken contact us link on about page
+[Y] Titles and landmarks are meaningful
+Fixed broken jpg on about page- Case sensitivity issue
+[Y] Form prototype limitations are visible
+[Y] No secrets or real applicant details
+[Y] README links to the live site
+https://gumial.github.io/EEA-Studio-Assignments/
+[Y] Mentor can access the repository
