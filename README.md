@@ -54,3 +54,11 @@ Fixed broken jpg on about page- Case sensitivity issue
 [Y] README links to the live site
 https://gumial.github.io/EEA-Studio-Assignments/
 [Y] Mentor can access the repository
+
+Week-5-Studio
+added styles.css
+added root with general color themes, font sizing
+added margins and zoom functionality
+added asortment of custom properties that utilize var(...) for consistent appearance
+updated .html pages with class atributes
+bottom half of home page separated from top half of page during zoom testing-don't know why, maybe auto alignment-fixed itself

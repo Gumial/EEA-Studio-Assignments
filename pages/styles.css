@@ -1,0 +1,84 @@
+:root {
+    --color-text: #fff8ed;
+    --color-heading: #e9c58a;
+    --color-3: #bd7838;
+    --color-main: #493024;
+    --color-accent: #8ae9e9;
+    --color-black: #000000;
+    --margin-left: 150px;
+    --margin-right: 150px;
+    --margin-top: 50px;
+    --margin-bottom: 50px;
+    --font-system: system-ui, sans-serif;
+    --font-Georgia: Georgia, sans-serif;
+    --font-bodytext: 1rem;
+    --font-heading: 2.5rem;
+    --font-heading2: 1.7rem;
+    --font-heading3: 1.3rem;
+    --font-line-height: 1.6;
+    --font-weight: bold;
+    --font-weight2: italic;
+
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { 
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+  margin-top: var(--margin-top);
+  margin-bottom: var(--margin-bottom); 
+  font-family: var(--font-system); 
+  background: var(--color-main); 
+  color: var(--color-text); 
+  font-size: var(--font-bodytext); 
+  line-height: var(--font-line-height); 
+}
+a { 
+  color: var(--color-accent); 
+  text-underline-offset: .2em; 
+}
+:focus-visible { 
+  outline: 3px solid var(--color-3); 
+  outline-offset: 3px; 
+}
+.h1 { 
+  font-size: var(--font-heading); 
+  line-height: var(--font-line-height); 
+}
+.h2 { 
+  font-size: var(--font-heading2); 
+  line-height: var(--font-line-height); 
+}
+.h3 { 
+  font-size: var(--font-heading3); 
+  line-height: var(--font-line-height); 
+  font-weight: var(--font-weight); 
+}
+.description { 
+  font-family: var(--font-Georgia); 
+  font-size: var(--font-bodytext); 
+  font-weight: var(--font-weight2);
+  line-height: var(--font-line-height); 
+}
+.table { 
+  border: 0px solid var(--color-black);
+  background: var(--color-main); 
+  padding: .5rem; 
+  margin-bottom: .5rem; 
+  text-align: center;
+}
+.text {
+    font-family: var(--font-system);
+    font-size: var(--font-bodytext);
+    line-height: 2;
+    text-indent: 5ch;
+}
+.button {
+    background-color: var(--color-3);
+    color: var(--color-text);
+    border: 3px solid var(--color-black);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

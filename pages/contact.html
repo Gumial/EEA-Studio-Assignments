@@ -3,26 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Echo BBQ</title>
+        <title>Contact - Echo BBQ</title>
+        <link rel="stylesheet" href="../pages/styles.css">
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/about.html">About Us</a></li>
+                <li><a class="description" href="../index.html">Home</a></li>
+                <li><a class="description" href="../pages/about.html">About Us</a></li>
             </ul>
         </nav>
-        <h1>Catering Services</h1>
-            <p>We are committed to meeting our customers’ needs and are happy to accommodate their catering requests. We will work closely with you to ensure your order is prepared and delivered within the requested timeframe while maintaining the quality and service you expect.</p>
+        <h1 class="h1">Catering Services</h1>
+            <p class="text">We are committed to meeting our customers’ needs and are happy to accommodate their catering requests. We will work closely with you to ensure your order is prepared and delivered within the requested timeframe while maintaining the quality and service you expect.</p>
         <img
             src="../images/catering.jpg"
             alt="Trays of catered BBQ food on a table"
             width="500"
         >
 
-        <h2>Need to Contact Us?</h2>
-            <p>Our catering team is frequently out serving our customers, so we kindly ask that you complete the form below. We’ll review your request and get back to you within 2 business days. Thank you for your patience and understanding!</p>
-        <form>
+        <h2 class="h2">Need to Contact Us?</h2>
+            <p class="text">Our catering team is frequently out serving our customers, so we kindly ask that you complete the form below. We’ll review your request and get back to you within 2 business days. Thank you for your patience and understanding!</p>
+        <form class="table">
             <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
@@ -34,17 +35,18 @@
                 <textarea id="message" name="message" minlength="15" required></textarea>
             <br>
             <br>
-            <fieldset>
+            <fieldset class="table">
                 <legend>How would you like to be contacted?</legend>
                     <label><input type="radio" id="contact-email" name="contact-method" value="email" required>Email</label>
                     <label><input type="radio" id="contact-phone" name="contact-method" value="phone">Phone</label>
+                <br>
                 <br>
                 <legend>If phone is preferred, when would you like to be contacted?</legend>
                     <label><input type="radio" id="contact-morning" name="contact-time" value="morning">Morning</label>
                     <label><input type="radio" id="contact-afternoon" name="contact-time" value="afternoon">Afternoon</label>
                     <label><input type="radio" id="contact-evening" name="contact-time" value="evening">Evening</label>
             </fieldset>
-            <button type="submit">Demo Only Form, Nonfunctional</button>
+            <button class="button" type="submit">Demo Only Form, Nonfunctional</button>
         </form>
        
     </body>
