@@ -1,5 +1,7 @@
 # EEA Studio Webpage Build
 
+https://gumial.github.io/EEA-Studio-Assignments/
+
 Week-2-Studio
 Index.html and about.html file week 2 studio assignment
 
@@ -38,3 +40,17 @@ added </li> tag
 Week-4-Studio
 creating branch
 adding additional viewport title details
+publishing main
+Left expanded viewport titles unmerged to show evidence of understanding separate working branches - Can merge if preferred
+
+Release checklist
+[Y] index.html is present
+[Y] All links work on the hosted URL
+Fixed broken contact us link on about page
+[Y] Titles and landmarks are meaningful
+Fixed broken jpg on about page- Case sensitivity issue
+[Y] Form prototype limitations are visible
+[Y] No secrets or real applicant details
+[Y] README links to the live site
+https://gumial.github.io/EEA-Studio-Assignments/
+[Y] Mentor can access the repository
